@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "background-color: light-dark(#f3f3f3, #171717)",
+          "color: light-dark(#0d0d0d, #ececec)"
+        ]
+      }
+    ]
+  }
+}
